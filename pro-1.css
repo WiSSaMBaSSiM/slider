@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px   ;
+}
+.card {
+    width: 100px;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10vh;
+    border-radius: 40px;
+    transition: width 0.5s ease-in;
+    cursor: pointer;
+}
+.zoomed {
+    background-size: cover;
+}
+.big 
+{
+    width: 500px;
+}
